@@ -6,10 +6,10 @@ pool:
 
 variables:
 #the storage account information for the terraform state data, replace with your own resource
-  terraformstoragerg: 'tfdeploy'
-  terraformstorageaccount: 'huidongtf'
+  terraformstoragerg: 'TerraformDemo'
+  terraformstorageaccount: 'latf'
   storagekey: 'PipelineWillGetThisValueRuntime'
-  terraformstorageaccountcontainer: 'terraform'
+  terraformstorageaccountcontainer: 'terraformla'
 
 stages:
 - stage: Build
