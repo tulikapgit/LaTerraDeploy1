@@ -6,9 +6,9 @@
         "connectionString": "@appsetting('sql_connectionString')"
       },
       "serviceProvider": {
-        "id": "/serviceProviders/sql"
+        "id": "/serviceProviders/serviceBus"
       },
-      "displayName": "sqlcon"
+      "displayName": "servconn"
     }
   },
   "managedApiConnections": {}
